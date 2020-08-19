@@ -1,0 +1,36 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+#menu nav{
+	justify-self: right; 
+	align-self: center;
+}
+
+#menu{
+	display: grid;
+    grid-template-columns: 20% 75% 10%;
+    background-color: #ffff;
+    height: 15vh;
+}
+
+
+#menu a{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	color: #19A786;
+	text-decoration: none;
+    cursor: pointer;
+    margin-left: 60px;
+    font-weight: bolder;
+}
+
+#menu img{
+    margin-top: -30px;
+}
+
+#menu a:hover {
+    color: #FFFFFF;
+    background-color: #FF637C;
+}
