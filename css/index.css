@@ -5,40 +5,37 @@
 
 #main{
     display: grid;
-    grid-template-rows: 15vh 90vh 55vh 20vh;
-    grid-template-areas: "header header" "content content" "aside aside" "footer footer";
+    grid-template-rows: 20vh 90vh 90vh 20vh;
+    grid-template-areas: "header header" "content content" "form form" "footer footer";
 }
 
 .mainHeader{
+    display: grid;
     grid-area: header;
-    background-color: rgb(185, 72, 72);
+    grid-template-columns: 50% 50%;
     
 }
 
 .mainHeader img{
-    margin-top: -25px;
+    align-self: center;
 }
 
 .mainHeader nav{
-    grid-area: header;
     display: grid;
     grid-template-columns: auto auto auto auto;
-    justify-self: right; 
     align-self: center;
-    background-color: gold;
 }
 
-.mainNav a{
-	font-family: 'Montserrat', sans-serif;
+.mainHeader nav a{
+    font-family: 'Montserrat', sans-serif;
 	font-size: 20px;
 	color: #19A786;
 	text-decoration: none;
     cursor: pointer;
     font-weight: bolder;
-    margin-right: 90px;
 }
 
-.mainNav a:focus {
+nav a:focus {
     color: #FFFFFF;
     background-color: #FF637C;
 }
@@ -46,6 +43,10 @@
 
 .mainInicio{
     grid-area: content;
+    background-color: #ECF8F5;
+    width: 90%;
+    height: 80vh;
+    margin-left: 5%;
 }
 
 .mainInicio h1{
@@ -57,21 +58,34 @@
 }
 
 .mainInicio .texto{
-    background-color: #ECF8F5;
-    width: 90%;
-    height: 80vh;
-    margin-left: 5%;
+    position: absolute;
+	left: 30%;
+	top: 50%;
 }
 
-.mainAside{
-    grid-area: aside;
-    background-color: deeppink;
+.mainInicio .texto button{
+    font-size: 1.5em;
+    background: #19A786;
+    color: #2F2D51;
+    padding: 0.4em 3em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    border-radius: 8px;
+    margin-left: 30%;
+    margin-top: 2%;
+}
+
+.mainInicio .texto a{
+    position: absolute;
+	right: 110%;
+	top: 10%;
+}
+
+.mainForm{
+    grid-area: form;
 }
 
 .mainFooter{
     grid-area: footer;
     background-color: darkorchid;
 }
-
-
-

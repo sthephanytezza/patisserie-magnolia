@@ -5,13 +5,14 @@
        <meta name="viewport" content="width=device-width, initial-scale=1">
        <link rel="icon" type="imagem/png" href="../assets/donut.png"/>
        <link rel="stylesheet" type="text/css" href="../css/index.css">
+       <link rel="stylesheet" type="text/css" href="../css/formulario.css">
        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@562&display=swap" rel="stylesheet">
        <title>Pâtisserie Magnólia</title>
    </head>
    <body>
        <section id="main">
-            <header class="mainHeader">
+            <header class="mainHeader" id="home">
                 <img src="..\assets\logo.png">
                 <nav>
                     <a href="#home">Home</a>
@@ -20,14 +21,39 @@
                     <a href="#sobre">Sobre nós</a>
                 </nav>
             </header>
-            <section class="mainInicio">
+            <section class="mainInicio" >
                 <div class="texto">
-                    <h1>Pâtisserie Magnólia</h1>
+                    <h1> <img src="..\assets\donut.png"> Pâtisserie Magnólia</h1>
                     <button>Veja mais</button>
                     <a><img src="..\assets\bolomorango.png"></a>
                 </div>
             </section>
-            <aside class="mainAside"></aside>
+            <section class="mainForm" id="orcamento">
+                <form action="#" method="post">
+                    <fieldset>
+                        <h1>FAÇA UM ORÇAMENTO</h1>
+                        <div class="campo">
+                            <label for="nome">NOME</label>
+                            <input type="text" id="nome" name="nome" style="width: 98%;" value="">
+                        </div>
+                        <div class="campo">
+                            <label for="descricao">DESCRIÇÃO</label>
+                            <input type="text" id="descricao" name="descricao" style="width: 98%;" value="">
+                        </div>
+                        <div class="grupo">
+                            <div class="campo">
+                                <label for="upload">UPLOAD</label>
+                                <input type="text" id="upload" name="upload" style="width: 94%;" value="">
+                            </div>
+                            <div class="campo">
+                                <label for="tipo">TIPO</label>
+                                <input type="text" id="tipo" name="tipo" style="width: 95%;" value="">
+                            </div>
+                        </div>
+                        <button type="submit" name="submit" class="botao">ENVIAR</button>
+                    </fieldset>
+                </form>
+            </section>
             <footer class="mainFooter"></footer>
        </section>
    </body>
