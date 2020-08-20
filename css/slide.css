@@ -3,50 +3,50 @@
     padding: 0px;
 }
 
-body{
-    background-color: #494949;
+#carrossel{
+    display: grid;
+    grid-template-rows: 42vh 6vh;
+    grid-template-areas: "carrossel carrossel" "quadrado quadrado";
+    width: 50%;
+    margin-top: 5%;
+    margin-left: 25%;
+ 
 }
 
-.galeria{
-    margin: 200px auto;
-    width: 480px;
-    height: 270px;
-    position: relative;
-    overflow: hidden;
+.imagem{
+    grid-area: carrossel;  
 }
 
 img{
-    width: 480px;
-    height: 270px;
+    width: 1000px;
+    height: 400px;
 }
 
-.foto{
-    position: absolute;
-    opacity: 0;
-    animation-name: animacao;
-    animation-duration: 20s;
-    animation-iteration-count: infinite;
-}
-
-.foto:nth-child(1){
-    
-}
-
-.foto:nth-child(2){
-    animation-delay: 5s;
-}
-
-.foto:nth-child(3){
-    animation-delay: 10s;
+a{
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 20px;
 }
 
 
-@keyframes animacao{
-    25%{
-        opacity: 1;
-        transform: scale(1.1, 1.1);
-    }
-    50%{
-        opacity: 0;
-    }
+#quadrados{
+    grid-area: quadrado;
+    display: grid;
+    grid-template-columns: 10% 10% 10%;
+    margin-top: 4%;
+ 
+}
+
+.quadrado{
+    background-color: #f6aab7;
+    border: solid 15px #f6aab7;
+    padding: 10px;
+    width: 1%;
+    margin-left: 755%;
+}
+
+.selecionado{
+    background-color: #FF637C;
+    border: solid 15px #FF637C;
 }
