@@ -1,6 +1,7 @@
 array1 = new Array ("../assets/imagem1.jpg", "../assets/imagem2.jpg", "../assets/imagem3.jpg")
 
 function slide1(){ 
+    console.log("entrou aqui")
     document.getElementById('imgId').src= array1[0];
     selecionaQuadrado(0)
     setTimeout("slide2()", 3000)
