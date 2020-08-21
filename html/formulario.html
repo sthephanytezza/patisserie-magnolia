@@ -1,17 +1,164 @@
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" href="../css/slide.css">
+    <link rel="stylesheet" type="text/css" href="../css/galeria.css">
+    <link rel="stylesheet" type="text/css" href="../css/perfundo.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/perfundo-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@562&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <body>
+        <section id="galeria">
+            <div class="imagem">
+                <div class="perfundo">
+                    <a class="perfundo__link" href="#perfundo-img1">
+                      <img src="../assets/imagem1.jpg" alt="Demo image">
+                    </a>
+                    <div id="perfundo-img1" class="perfundo__overlay fadeIn">
+                      <figure class="perfundo__content perfundo__figure">
+                        <img src="./assets/imagem1.jpg" alt="Demo image">
+                        <div class="perfundo__image" style="width: 800px; padding-top: 66.25%; background-image: url(../assets/imagem1.jpg);"></div>
+                        <h1>ESSE É O TÍTULO</h1>
+                        <h2>Esse é o subtítulo</h2>
+                      </figure>
+                      <a href="#perfundo-untarget" class="perfundo__close perfundo__control">Close</a>
+                      <a class="perfundo__next perfundo__control" href="#perfundo-img2">Next</a>
+                    </div>
+                  </div>
+                  
+                  <div class="perfundo">
+                    <a class="perfundo__link" href="#perfundo-img2">
+                      <img src="../assets/imagem2.jpg" alt="Demo image">
+                    </a>
+                    <div id="perfundo-img2" class="perfundo__overlay fadeIn">
+                      <figure class="perfundo__content perfundo__figure">
+                        <img src="../assets/imagem2.jpg" alt="Demo image">
+                        <div class="perfundo__image" style="width: 800px; padding-top: 66.25%; background-image: url(../assets/imagem2.jpg);"></div>
+                        <h1>ESSE É O TÍTULO</h1>
+                        <h2>Esse é o subtítulo</h2>
+                      </figure>
+                      <a href="#perfundo-untarget" class="perfundo__close perfundo__control">Close</a>
+                      <a class="perfundo__next perfundo__control" href="#perfundo-img3">Next</a>
+                      <a class="perfundo__prev perfundo__control" href="#perfundo-img1">Prev</a>
+                    </div>
+                  </div>
+                
+                  <div class="perfundo">
+                    <a class="perfundo__link" href="#perfundo-img3">
+                      <img src="../assets/imagem3.jpg" alt="Demo image">
+                    </a>
+                    <div id="perfundo-img3" class="perfundo__overlay fadeIn">
+                      <figure class="perfundo__content perfundo__figure">
+                        <img src="../assets/imagem3.jpg" alt="Demo image">
+                        <div class="perfundo__image" style="width: 800px; padding-top: 66.25%; background-image: url(../assets/imagem3.jpg);"></div>
+                        <h1>ESSE É O TÍTULO</h1>
+                        <h2>Esse é o subtítulo</h2>
+                      </figure>
+                      <a href="#perfundo-untarget" class="perfundo__close perfundo__control">Close</a>
+                      <a class="perfundo__next perfundo__control" href="#perfundo-img4">Next</a>
+                      <a class="perfundo__prev perfundo__control" href="#perfundo-img2">Prev</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="imagem">
+                <div class="perfundo">
+                    <a class="perfundo__link" href="#perfundo-img4">
+                      <img src="../assets/imagem4.jpg" alt="Demo image">
+                    </a>
+                    <div id="perfundo-img4" class="perfundo__overlay fadeIn">
+                      <figure class="perfundo__content perfundo__figure">
+                        <img src="../assets/imagem4.jpg" alt="Demo image">
+                        <div class="perfundo__image" style="width: 800px; padding-top: 66.25%; background-image: url(../assets/imagem4.jpg);"></div>
+                        <h1>ESSE É O TÍTULO</h1>
+                        <h2>Esse é o subtítulo</h2>
+                      </figure>
+                      <a href="#perfundo-untarget" class="perfundo__close perfundo__control">Close</a>
+                      <a class="perfundo__next perfundo__control" href="#perfundo-img5">Next</a>
+                      <a class="perfundo__prev perfundo__control" href="#perfundo-img3">Prev</a>
+                    </div>
+                  </div>
 
-    <body onLoad="slide1();">
-        <section id="carrossel">
-            <a class="imagem"><img id="imgId"></a>
-
-            <section id="quadrados">
-                <a class="quadrado" id="imagem1" href="javascript:imagem1()"></a>
-                <a class="quadrado" id="imagem2"  href="javascript:imagem2()"></a>
-                <a class="quadrado" id="imagem3"  href="javascript:imagem3()"></a>
-            </section>
-        </section>
+                  <div class="perfundo">
+                    <a class="perfundo__link" href="#perfundo-img5">
+                      <img src="../assets/imagem5.jpg" alt="Demo image">
+                    </a>
+                    <div id="perfundo-img5" class="perfundo__overlay fadeIn">
+                      <figure class="perfundo__content perfundo__figure">
+                        <img src="../assets/imagem5.jpg" alt="Demo image">
+                        <div class="perfundo__image" style="width: 800px; padding-top: 66.25%; background-image: url(../assets/imagem5.jpg);"></div>
+                        <h1>ESSE É O TÍTULO</h1>
+                        <h2>Esse é o subtítulo</h2>
+                      </figure>
+                      <a href="#perfundo-untarget" class="perfundo__close perfundo__control">Close</a>
+                      <a class="perfundo__next perfundo__control" href="#perfundo-img6">Next</a>
+                      <a class="perfundo__prev perfundo__control" href="#perfundo-img4">Prev</a>
+                    </div>
+                  </div>
+                
+                  <div class="perfundo">
+                    <a class="perfundo__link" href="#perfundo-img6">
+                      <img src="../assets/imagem6.jpg" alt="Demo image">
+                    </a>
+                    <div id="perfundo-img6" class="perfundo__overlay fadeIn">
+                      <figure class="perfundo__content perfundo__figure">
+                        <img src="../assets/imagem6.jpg" alt="Demo image">
+                        <div class="perfundo__image" style="width: 800px; padding-top: 66.25%; background-image: url(../assets/imagem6.jpg);"></div>
+                        <h1>ESSE É O TÍTULO</h1>
+                        <h2>Esse é o subtítulo</h2>
+                      </figure>
+                      <a href="#perfundo-untarget" class="perfundo__close perfundo__control">Close</a>
+                      <a class="perfundo__next perfundo__control" href="#perfundo-img7">Next</a>
+                      <a class="perfundo__prev perfundo__control" href="#perfundo-img5">Prev</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="imagem">
+                <div class="perfundo">
+                    <a class="perfundo__link" href="#perfundo-img7">
+                      <img src="../assets/imagem7.jpg" alt="Demo image">
+                    </a>
+                    <div id="perfundo-img7" class="perfundo__overlay fadeIn">
+                      <figure class="perfundo__content perfundo__figure">
+                        <img src="../assets/imagem7.jpg" alt="Demo image">
+                        <div class="perfundo__image" style="width: 800px; padding-top: 66.25%; background-image: url(../assets/imagem7.jpg);"></div>
+                        <h1>ESSE É O TÍTULO</h1>
+                        <h2>Esse é o subtítulo</h2>
+                      </figure>
+                      <a href="#perfundo-untarget" class="perfundo__close perfundo__control">Close</a>
+                      <a class="perfundo__next perfundo__control" href="#perfundo-img8">Next</a>
+                      <a class="perfundo__prev perfundo__control" href="#perfundo-img6">Prev</a>
+                    </div>
+                </div>
+                <div class="perfundo">
+                    <a class="perfundo__link" href="#perfundo-img8">
+                      <img src="../assets/imagem8.jpg" alt="Demo image">
+                    </a>
+                    <div id="perfundo-img8" class="perfundo__overlay fadeIn">
+                      <figure class="perfundo__content perfundo__figure">
+                        <img src="../assets/imagem8.jpg" alt="Demo image">
+                        <div class="perfundo__image" style="width: 800px; padding-top: 66.25%; background-image: url(../assets/imagem8.jpg);"></div>
+                        <h1>ESSE É O TÍTULO</h1>
+                        <h2>Esse é o subtítulo</h2>
+                      </figure>
+                      <a href="#perfundo-untarget" class="perfundo__close perfundo__control">Close</a>
+                      <a class="perfundo__next perfundo__control" href="#perfundo-img9">Next</a>
+                      <a class="perfundo__prev perfundo__control" href="#perfundo-img7">Prev</a>
+                    </div>
+                </div>
+                <div class="perfundo">
+                    <a class="perfundo__link" href="#perfundo-img9">
+                      <img src="../assets/imagem9.jpg" alt="Demo image">
+                    </a>
+                    <div id="perfundo-img9" class="perfundo__overlay fadeIn">
+                      <figure class="perfundo__content perfundo__figure">
+                        <img src="../assets/imagem9.jpg" alt="Demo image">
+                        <div class="perfundo__image" style="width: 800px; padding-top: 66.25%; background-image: url(../assets/imagem9.jpg);"></div>
+                        <h1>ESSE É O TÍTULO</h1>
+                        <h2>Esse é o subtítulo</h2> 
+                     </figure>
+                      <a href="#perfundo-untarget" class="perfundo__close perfundo__control">Close</a>
+                      <a class="perfundo__prev perfundo__control" href="#perfundo-img8">Prev</a>
+                    </div>
+                </div>
+            </div>
+        </section>        
     </body>
-    <script type="text/javascript" src="carrossel.js"></script>
 </HTML>

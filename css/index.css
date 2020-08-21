@@ -53,8 +53,6 @@ nav a:focus {
     font-family: 'Dancing Script', cursive;
     font-size: 100px;
 	color: #19A786;
-	text-decoration: none;
-    cursor: pointer;
 }
 
 .mainInicio .texto{
