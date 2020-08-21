@@ -1,0 +1,24 @@
+.mainFooter a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase; 
+}
+
+.mainFooter .coluna{
+    text-align: center;
+    text-align: left;
+    margin-left: 40%;
+    margin-top: 15%;
+}
+
+.mainFooter .empresa{
+    margin-top: -4em;
+}
+
+.mainFooter .empresa p{
+    margin-top: -3em;
+}
+
+.mainFooter P{
+    line-height: 1.5;
+}

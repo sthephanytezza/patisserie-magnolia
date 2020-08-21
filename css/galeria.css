@@ -3,7 +3,24 @@
 	padding: 0px;
 }
 
-img{
+#main{
+    display: grid;
+    grid-template-rows: 20vh 130vh 30vh;
+    grid-template-areas: "header header" "content content"  "footer footer";
+}
+
+.mainHeader{
+    display: grid;
+    grid-area: header;
+    grid-template-columns: 50% 50%;
+    
+}
+
+#galeria{
+    grid-area: content;
+}
+
+#galeria img{
     width: 300px;
     height: 300px;
 }
@@ -28,4 +45,13 @@ img{
     font-size: 20px;
 	color: rgb(185, 72, 72);
     margin-left: 40%;
+}
+
+.mainFooter{
+    display:grid;
+    grid-template-columns: 33% 33% 33% 33%;
+    grid-area: footer;
+    background-color: #FF637C;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
 }

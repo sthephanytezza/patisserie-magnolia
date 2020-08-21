@@ -1,0 +1,23 @@
+.mainHeader img{
+    align-self: center;
+}
+
+.mainHeader nav{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    align-self: center;
+}
+
+.mainHeader nav a{
+    font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	color: #19A786;
+	text-decoration: none;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+nav a:focus {
+    color: #FFFFFF;
+    background-color: #FF637C;
+}
