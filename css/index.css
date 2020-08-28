@@ -3,8 +3,6 @@
 	padding: 0px;
 }
 
-
-
 .mainHeader{
     display: flex;
     flex-direction: row;
@@ -51,6 +49,11 @@
     text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
     border-radius: 8px;
     width: 200px;
+    border: 0;
+}
+
+.mainInicio button:hover {
+    background: #0d866a;
 }
 
 .mainInicio a{
@@ -68,8 +71,16 @@
 }
 
 .mainForm{
-    grid-area: form;
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    align-items: center;
+    justify-content: center;
 }
+
+
+
+
 
 .mainFooter{
     display:grid;

@@ -1,8 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
 input, select, textarea, label{
     font-family: 'Montserrat', sans-serif;
     font-size: 25px;
@@ -17,13 +12,11 @@ h1{
 }
 
 fieldset{
-    display: grid;
-    grid-template-rows: 10vh 14vh 14vh 14vh;
-    width: 50%;
     border: 0;
-    padding: 10px;
-    margin-left: 25%;
-    margin-top: 5%;
+}
+
+.formulario{
+    margin-top: 20px;
 }
 
 .grupo{
@@ -37,13 +30,19 @@ fieldset{
     display: block;
 }
 
+.campo input[type="file"] {
+    display: none
+  }
+  
+
 .campo input[type="text"],
+.campo input[type="file"],
 .campo select{
-    padding: 0.2em;
     border: 1px solid #CCC;
     box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
     display: block;
-    height: 50px;
+    height: 6vh;
+    width: 100%;
 }
 
 .campo select option {
@@ -64,12 +63,12 @@ fieldset{
     font-size: 1.5em;
     background: #19A786;
     border: 0;
-    margin-bottom: 1em;
     color: #FFF;
-    padding: 0.2em 0.6em;
     box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
     text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
-    height: 100%;
+    width: 98.5%;
+    margin-top: 20px;
+    height: 6vh;
 }
 
 .botao:hover {
