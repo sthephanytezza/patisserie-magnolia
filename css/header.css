@@ -3,9 +3,12 @@
 }
 
 .mainHeader nav{
-    display: grid;
-    grid-template-columns: auto auto auto auto;
     align-self: center;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50vw;
 }
 
 .mainHeader nav a{
