@@ -32,7 +32,7 @@ fieldset{
 
 .campo input[type="file"] {
     display: none
-  }
+}
   
 
 .campo input[type="text"],
@@ -79,4 +79,26 @@ fieldset{
 
 .botao, select, label.checkbox {
     cursor: pointer;
+}
+
+@media screen and (max-width: 360px){
+    h1{
+        font-size: 20px;
+    }
+    input, select, textarea, label{
+        font-size: 15px;
+    }
+    .campo input[type="text"],
+    .campo input[type="file"],
+    .campo select{
+        height: 4vh;
+    }
+    .grupo{
+        grid-template-columns: 105%;
+    }
+
+    .botao {
+        font-size: 15px;
+        height: 4vh;
+    }
 }

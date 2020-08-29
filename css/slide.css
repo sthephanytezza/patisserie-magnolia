@@ -10,7 +10,7 @@
     height: 100%;
 }
 
-a{
+.mainCarrossel a{
     text-decoration: none;
     cursor: pointer;
     font-weight: bolder;
@@ -33,4 +33,21 @@ a{
 .selecionado{
     background-color: #FF637C;
     border: solid 20px #FF637C;
+}
+
+@media screen and (max-width: 360px){
+    .mainCarrossel .imagem{
+        width: 80vw;
+        height: 20vh;
+        margin-bottom: 1em;
+    }
+    .mainCarrossel .quadrados{
+        width: 10em;
+    }
+    .quadrado{
+        border: solid 10px #f6aab7;
+    }
+    .selecionado{
+        border: solid 10px #FF637C;
+    }
 }

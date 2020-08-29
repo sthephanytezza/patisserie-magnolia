@@ -19,3 +19,13 @@
 .mainFooter P{
     line-height: 1.5;
 }
+
+@media screen and (max-width: 360px){
+    .mainFooter .coluna p{
+        font-size: 13px;
+    }
+    .mainFooter .coluna .empresa img{
+        width: 150px;
+        height: 150px;
+    }
+}
