@@ -24,3 +24,26 @@ nav a:focus {
     color: #FFFFFF;
     background-color: #FF637C;
 }
+
+@media screen and (max-width: 1024px){
+  
+}
+
+@media screen and (max-width: 768px){
+    .mainHeader nav{
+        width: 92%;
+    }
+    .mainHeader nav a{
+        margin-left: 20px; 
+    }
+}  
+
+@media screen and (max-width: 640px){
+
+}
+
+@media screen and (max-width: 360px){
+    .mainHeader nav a{
+        font-size: 12px;
+    }
+}
