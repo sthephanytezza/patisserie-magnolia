@@ -26,7 +26,9 @@ nav a:focus {
 }
 
 @media screen and (max-width: 1024px){
-  
+    .mainHeader nav{
+        width: 60%;
+    }
 }
 
 @media screen and (max-width: 768px){

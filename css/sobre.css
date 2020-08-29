@@ -86,11 +86,21 @@
     #sobre .texto{
         width: 95%;
     }
+    #sobre .imagem{
+        width: 300px;
+        height: 30vh;
+        margin-top: 30px;
+    }
 
 }
 
 @media screen and (max-width: 640px){
-
+    #links{
+        display: none;
+    }
+    #sobre h1{
+        font-size: 30px;
+    }
 }
 
 @media screen and (max-width: 360px){
