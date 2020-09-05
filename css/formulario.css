@@ -81,6 +81,24 @@ fieldset{
     cursor: pointer;
 }
 
+@media screen and (max-width: 450px){
+    h1{
+        font-size: 25px;
+    }
+    input, select, textarea, label{
+        font-size: 18px;
+    }
+    .campo input[type="text"],
+    .campo input[type="file"],
+    .campo select{
+        height: 5vh;
+    }
+    .botao {
+        font-size: 18px;
+        height: 5vh;
+    }
+}
+
 @media screen and (max-width: 360px){
     h1{
         font-size: 20px;

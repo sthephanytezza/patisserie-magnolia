@@ -35,9 +35,15 @@
     border: solid 20px #FF637C;
 }
 
-@media screen and (max-width: 360px){
+@media screen and (max-width: 450px){
     .mainCarrossel .imagem{
         width: 80vw;
+        height: 40vh;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .mainCarrossel .imagem{
         height: 20vh;
         margin-bottom: 1em;
     }

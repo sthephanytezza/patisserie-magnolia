@@ -3,12 +3,7 @@
 	padding: 0px;
 }
 
-.mainHeader{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
-}
+
 
 .mainInicio{
     background-color: #ECF8F5;
@@ -78,18 +73,6 @@
     justify-content: center;
 }
 
-.mainFooter{
-    display: flex;
-    flex-direction: row;
-    background-color: #FF637C;
-    font-family: 'Montserrat', sans-serif;
-    color: #ffffff;
-    justify-content: space-between;
-    align-items: center;
-    height: 20vh;
-    padding: 30px;
-}
-
 @media screen and (max-width: 1024px){
     .mainInicio a{
         right: 70%;
@@ -98,13 +81,12 @@
     .mainInicio a img{
         width: 300px;
     }
+    .mainInicio h1{
+        width: min-content;
+    }
 }
 
 @media screen and (max-width: 768px){
-    .mainHeader{
-        flex-direction: column;
-        align-items: center;
-    }
     .mainInicio h1{
         font-size: 70px;
     }
@@ -115,21 +97,23 @@
 }
 
 @media screen and (max-width: 640px){
-    #links{
-        display: none;
-    }
     .mainInicio{
         height: 50vh;
     }
     .mainInicio h1{
-        font-size: 50px;
+        font-size: 45px;
+        width: min-content;
     }
     .mainInicio a{
         right: 70%;
         top: 60%;
     }
     .mainInicio a img{
-        width: 200px;
+        display: none;
+    }
+    .mainInicio .textoInicio img{
+        width: 70px;
+        height: 70px;
     }
     .mainForm{
         width: 80vw;
@@ -142,9 +126,6 @@
         height: 40vh;
         width: 100%;
         margin: 0;
-    }
-    .mainInicio a img{
-        display: none;
     }
     .mainInicio h1{
         font-size: 30px;
@@ -162,12 +143,5 @@
     }
     .mainForm{
         height: 50vh;
-    }
-    .mainFooter{
-        flex-direction: column;
-        align-items: center;
-    }
-    .mainFooter .coluna{
-        text-align: center;
     }
 }
