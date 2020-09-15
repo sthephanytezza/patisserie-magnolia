@@ -1,0 +1,62 @@
+.mainCarrossel {
+    width: 50vw;
+    height: 40vh;
+    position: relative;
+    overflow: hidden;
+    margin-left: 25%;
+    margin-top: 4em;
+}
+
+.mainCarrossel img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    animation: animacao 12s infinite;
+}
+
+
+@keyframes animacao{
+        25%{
+            opacity: 1;
+            transform: scale(1.1,1.1);
+        }
+
+        50%{
+            opacity: 0;
+        }
+}
+
+.mainCarrossel img:nth-child(1){
+    animation-delay: -2s;
+}
+
+.mainCarrossel img:nth-child(2){
+    animation-delay: 7s;
+}
+
+.mainCarrossel img:nth-child(3){
+    animation-delay: 5s;   
+}
+
+.mainCarrossel img:nth-child(4){
+    animation-delay: 2s;   
+}
+
+
+
+
+
+
+@media screen and (max-width: 450px){
+    .mainCarrossel .galeria{
+        width: 80vw;
+        height: 40vh;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .mainCarrossel .galeria{
+        height: 20vh;
+        margin-bottom: 1em;
+    }
+}
