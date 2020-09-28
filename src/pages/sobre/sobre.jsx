@@ -1,10 +1,10 @@
 import React from 'react';
 import './sobre.css';
 
-import Header from '../components/header';
-import Footer from '../components/footer';
+import Header from '../../components/header/header';
+import Footer from '../../components/footer/footer';
 
-import imagem3 from '../assets/imagem3.jpg';
+import imagem3 from '../../assets/imgs/imagem3.jpg';
 
 export default () =>
     <>

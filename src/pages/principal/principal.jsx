@@ -1,21 +1,19 @@
 import React from 'react';
 import './index.css';
 
-import '../components/header.css';
-import '../components/footer.css';
 import './formulario.css';
 import './slide.css';
 
-import Footer from '../components/footer';
-import Header from '../components/header';
+import Footer from '../../components/footer/footer';
+import Header from '../../components/header/header';
 
-import icon from '../assets/donut.png';
-import bolomorango from '../assets/bolomorango.png';
+import icon from '../../assets/imgs/donut.png';
+import bolomorango from '../../assets/imgs/bolomorango.png';
 
-import imagem1 from '../assets/imagem1.jpg';
-import imagem2 from '../assets/imagem2.jpg';
-import imagem3 from '../assets/imagem3.jpg';
-import imagem4 from '../assets/imagem4.jpg';
+import imagem1 from '../../assets/imgs/imagem1.jpg';
+import imagem2 from '../../assets/imgs/imagem2.jpg';
+import imagem3 from '../../assets/imgs/imagem3.jpg';
+import imagem4 from '../../assets/imgs/imagem4.jpg';
 
 export default () => 
     <>

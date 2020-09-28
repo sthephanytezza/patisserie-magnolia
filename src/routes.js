@@ -1,9 +1,9 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom' ;
 
-import Principal from './principal/principal';
-import Galeria from './galeria/galeria';
-import Sobre from './sobre/sobre';
+import Principal from './pages/principal/principal';
+import Galeria from './pages/galeria/galeria';
+import Sobre from './pages/sobre/sobre';
 
 export default () =>
     <>

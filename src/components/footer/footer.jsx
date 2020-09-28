@@ -1,7 +1,7 @@
 import React from 'react';
 import './footer.css';
 
-import logo from '../assets/logo.png';
+import logo from '../../assets/imgs/logo.png';
 
 export default () =>
     <>
